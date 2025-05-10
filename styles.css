@@ -71,7 +71,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 6rem;
+    margin-left: 5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -80,7 +80,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 6rem;
+    margin-left: 5rem;
     margin-bottom: 1rem;
     font-family: var(--fonte-texto);
 }
@@ -97,7 +97,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .sobre_mim_imagem img {
@@ -109,7 +109,7 @@ html {
 
 .sobre_mim_texto{
     text-align: center;
-    margin-left: 6.5rem;
+    margin-left: 6rem;
     margin-bottom: 1rem;
     font-family: var(--fonte-texto);
 }
@@ -118,23 +118,7 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 4rem;
-    margin-left: 6rem;
-    font-size: 25px;
-}
-
-.modelos_remocao{
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-left: 4.5rem;
-    font-size: 25px;
-}
-
-.modelos_manutencao {
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-left: 4.5rem;
+    margin-left: 4rem;
     font-size: 25px;
 }
 
@@ -154,7 +138,7 @@ html {
 }
 
 .modelos_imagem img {
-    max-width: 9.375rem; 
+    max-width: 90px; 
     height: auto; 
     border-radius: 10px; 
     margin: 2rem 3rem;
@@ -200,7 +184,7 @@ html {
 }
 
 .modelos_imagem_detalhe img {
-    max-width: 9.375rem; 
+    max-width: 150px; 
     height: auto; 
     border-radius: 10px; 
     margin: 2rem 3rem;
@@ -214,9 +198,9 @@ html {
 }
 
 .mapa {
-    margin: 1.25rem 3.5rem;
-    width: 18.75rem;
-    height: 18.75rem;
+    margin: 20px 2.5rem;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     border: 2px solid #ccc;
@@ -244,7 +228,7 @@ select {
     align-items: center;
     margin-top: 4rem;
     margin-bottom: 0.5rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
     font-size: 23px;
 }
 
@@ -269,6 +253,7 @@ select {
     padding: 10px 20px;
     border-radius: 30px;
     transition: background-color 0.3s ease;
+    margin-left: -2rem;
 }
 
 .whatsapp-contato a:hover {
@@ -307,106 +292,3 @@ select {
     text-decoration: none;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
-
-.rodape {
-    font-family: var(--fonte-texto);
-    display: flex;
-    text-align: center;
-}
-
-.rodape_texto {
-    margin-left: 6rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-@media (min-width: 600px) {
-    body {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .img_section img,
-    .sobre_mim_imagem img,
-    .modelos_imagem img,
-    .modelos_imagem_detalhe img {
-        max-width: 70%;
-        margin: 2rem auto;
-        display: block;
-    }
-
-    .base_section p,
-    .sobre_mim_texto,
-    .remocao_texto {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 80%;
-    }
-
-    .titulo_section,
-    .sobre_mim_titulo,
-    .modelos_titulo,
-    .formaDePagamento,
-    .contato_titulo {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .modelos__section {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .modelos_texto_detalhe {
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .mapa {
-        width: 80%;
-        height: 300px;
-        margin: 2rem auto;
-    }
-
-    select {
-        width: 80%;
-        max-width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .whatsapp-contato {
-        margin-left: 0;
-        justify-content: center;
-    }
-
-    .btn-topo {
-        right: 1rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .img_section img,
-    .sobre_mim_imagem img,
-    .modelos_imagem img,
-    .modelos_imagem_detalhe img {
-        max-width: 400px;
-    }
-
-    .base_section p,
-    .sobre_mim_texto,
-    .remocao_texto {
-        font-size: 1.1rem;
-    }
-
-    a {
-        font-size: 1.5rem;
-    }
-
-    .btn-topo {
-        right: 3rem;
-    }
-}
-
